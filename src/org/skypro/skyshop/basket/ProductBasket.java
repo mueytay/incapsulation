@@ -29,6 +29,7 @@ public class PruductBasket {
             for (Product product : products){
                 if (product != null){
                     total+=Product.getPrice;
+
                 }
             }
             return total;
