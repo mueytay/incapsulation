@@ -52,6 +52,7 @@ public class ProductBasket {
         for (int i = 0; i < count; i++) {
             if (products[i] != null && products[i].getName().equals(name)) {
                 return true;
+
             }
         }
         return false;
